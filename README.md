@@ -1,1 +1,1 @@
-https://github.com/phonRathana/vscode.git
+khttps://github.com/phonRathana/vscode.git
