@@ -1,0 +1,19 @@
+ * {
+     box-shadow: none;
+  }
+    html body {
+        margin: 0;
+        box-shadow: inset;
+        text-align: center;
+}
+    img {
+        width: 350px;
+        height: 400px;
+}
+    image-container {
+       margin: 0 auto; /* center the image containers */
+       width: 80%;
+       box-shadow: 0 10px 10px rgba(0,0,0,0.10), 0 10px 10px rgba(0,0,0,0.10); 
+       margin-bottom: 20px;
+       transition-duration: 1s;  
+}
