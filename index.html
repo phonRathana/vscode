@@ -9,31 +9,60 @@
       <style type="text/css">
     * {
          box-sizing: border-box;
-      }
-      html, body {
-         margin: 0;
-         padding: 0;
-         text-align: center; 
-      }
+  }
+       html, button {
+	font-family: Quicksand, sans-serif;
+  }
+
+    body {
+    	  background: white;
+	     color:#555;
+    	  text-align: center;
+  }
+    img {
+       width:400px;
+	     height:400px;
+  }
+   .brackets {
+     	font-family: Advent Pro, sans-serif;
+  }
+    #button {
+	     margin-top:10px;
+	     background:dodgerblue;
+     	color:white;
+	     width:80%;
+     	height:60px;
+	     font-size: 20px;
+	     outline: none;
+	     border:5px solid deepskyblue;
+	     border-radius: 5px;
+  }
+    #button:active{
+	      transform: scale(0.95);
+  }
       .image-container {
          margin: 0 auto; /* center the image containers */
          width: 80%;
          box-shadow: 0 0px 0px rgba(0,0,0,0.10), 0 0px 0px rgba(0,0,0,0.10); 
          margin-bottom: 20px;
-         transition-duration: 1s;
-      }
-      /* make the images responsive */
-      img {
-         width: 350px;
-         height: 400px;
+         transition-duration: 1s;  
    }
-     </style>
-</head>
-<body>
-    <h1>website</h1>
-   <div class="image-container">
-    <a hrf="https://httpsrathanaphon.website.co.in">
-      <img src="image/IMG_20230331_034828.jpg." width="350" height="400" />
-</body>
+    </style>
+ </head>
+  <body>
+         <h1>Website</h1>
+        <div class='logo-imag'>
+            <div class="container-imgae">
+                <img src="https://picsum.photos/500/300" width="100%">    
+              </br>   
+                <div class='brackets left'></div>
+               <h2> ®Rathana.phone.shop1</h2>
+                <div class='brackets right'><div>
+        </div>
+
+        <p class='sample'></p>
+        
+        <button id='button' onClick='changeTheme()'>Lonin</button>
+    </body>
 </html>
 
