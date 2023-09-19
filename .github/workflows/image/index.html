@@ -10,10 +10,22 @@
     <style type="text/css">
              * {
                 box-shadow: inset;
+           }
+             html, button {
+               font-family: Quicksand, sans-serif;
+            }
+             
+              body {
+                background: white;
+                color:#555;
+                text-align: center;
              }
-               img {
+              img {
                  width: 350px;
                  height: 400px;
+             }
+              .brackets {
+                 font-family: Advent Pro, sans-serif;
              }
               .image-container {
                  margin: 0 auto; /* center the image containers */
@@ -21,8 +33,22 @@
                  box-shadow: 0 10px 10px rgba(0,0,0,0.10), 0 10px 10px rgba(0,0,0,0.10); 
                  margin-bottom: 20px;
                  transition-duration: 1s;  
+              }
+                #button {
+                  margin-top:10px;
+                  background:dodgerblue;
+                  color:white;
+                  width:80%;
+                  height:60px;
+                  font-size: 20px;
+                  outline: none;
+                  border:5px solid deepskyblue;
+                  border-radius: 5px;
+               }
 
-             }
+                 #button:active{
+                   transform: scale(0.95);
+                }
     </style>
 <body>
 <head>
@@ -30,9 +56,9 @@
         <div class='logo-imag'>
           <div class="container-imgae">
          <img src="image/IMG_20230331_0348828.jpg" width="100%" > 
-          <div class='brackets left'></div>
+             <div class='brackets left'></div>
           <h2>Rathana.Phone.shop1</h2>
-          <div class='brackets right'><div>
+              <div class='brackets right'><div>
        </div>
           <p class='sample'></p>
 
